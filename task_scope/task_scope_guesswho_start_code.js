@@ -1,4 +1,4 @@
-// // GUESS 1 ///////////////////
+// GUESS 1 ///////////////////
 // let guess = {
 //   hair_colour: "red",
 //   eye_colour: "blue",
@@ -13,23 +13,25 @@
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
-// // Prediction: 
+// Prediction: "Guess who is Joseph"
 
-// // GUESS 2 ///////////////////
+// GUESS 2 ///////////////////
 
-let firstName = "Donna";
+// let firstName = "Donna";
 
-const guessWho = function () {
-  const glasses = false;
-  let firstName = "Liz";
-  return `Guess Who is ${firstName}.`;
-};
+// const guessWho = function () {
+//   const glasses = false;
+//   let firstName = "Liz";
+//   return `Guess Who is ${firstName}.`;
+// };
 
-const guess1 = guessWho();
-console.log("guess1: ", guess1);
+// const guess1 = guessWho();
+// console.log("guess1: ", guess1);
+// Prediction: "Guess who is Liz";
 
-const guess2 = `Guess Who is ${firstName}`;
-console.log("guess2: ", guess2);
+// const guess2 = `Guess Who is ${firstName}`;
+// console.log("guess2: ", guess2);
+// Prediction: "Guess who is Donna"
 
 // // GUESS 3 ///////////////////
 
@@ -61,21 +63,24 @@ console.log("guess2: ", guess2);
 
 // const finalAnswer = guessWho();
 // console.log(finalAnswer);
+// Prediction: "Guess Who is Chris"
 
 // // GUESS 4 ///////////////////
 
-// let firstName = "Gail";
+let firstName = "Gail";
 
-// if (firstName === "Gail") {
-//   let firstName = "Ashley";
-// }
+if (firstName === "Gail") {
+  let firstName = "Ashley";
+}
 
-// const guessWho = function () {
-//   return `Guess Who is ${firstName}`;
-// };
+const guessWho = function () {
+  return `Guess Who is ${firstName}`;
+};
 
-// const finalAnswer = guessWho();
-// console.log(finalAnswer);
+const finalAnswer = guessWho();
+console.log(finalAnswer);
+// Prediction: "Guess who is Ashley"
+// Answer: "Guess Who is Gail"
 
 // // GUESS 5 ///////////////////
 
@@ -99,3 +104,5 @@ console.log("guess2: ", guess2);
 
 // changeGuess();
 // console.log(`Guess Who is ${guess.firstName}`);
+// Prediction: "Guess who is Jennifer";
+// Answer: error because constant variable was reassigned.
