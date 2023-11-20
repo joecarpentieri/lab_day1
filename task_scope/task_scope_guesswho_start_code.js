@@ -67,18 +67,18 @@
 
 // // GUESS 4 ///////////////////
 
-let firstName = "Gail";
+// let firstName = "Gail";
 
-if (firstName === "Gail") {
-  let firstName = "Ashley";
-}
+// if (firstName === "Gail") {
+//   let firstName = "Ashley";
+// }
 
-const guessWho = function () {
-  return `Guess Who is ${firstName}`;
-};
+// const guessWho = function () {
+//   return `Guess Who is ${firstName}`;
+// };
 
-const finalAnswer = guessWho();
-console.log(finalAnswer);
+// const finalAnswer = guessWho();
+// console.log(finalAnswer);
 // Prediction: "Guess who is Ashley"
 // Answer: "Guess Who is Gail"
 
@@ -104,5 +104,5 @@ console.log(finalAnswer);
 
 // changeGuess();
 // console.log(`Guess Who is ${guess.firstName}`);
-// Prediction: "Guess who is Jennifer";
+// Prediction: "Guess who is Jennifer"
 // Answer: error because constant variable was reassigned.
